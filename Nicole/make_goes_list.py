@@ -1,13 +1,15 @@
 """
-    Code to produce a list of GOES times and from those times create a file directory.
+    Code to produce a list of GOES times from a CSV file and from those times 
+    	create a file directory based on the event #. The program then makes a CSV
+    	file with a single entry for an individual event.
 """
 
 
 import csv
 import os
 ###########################################################################
-top_dir="/Users/hwinter/programs/git_folder/Nicole/"
-file_name="/Users/hwinter/programs/git_folder/Nicole/goes_events.csv"
+top_dir="/home/nschanch/Stat121/Nicole/"
+file_name="/home/nschanch/Stat121/Nicole/goes_events.csv"
 ###########################################################################
 ###########################################################################
 
